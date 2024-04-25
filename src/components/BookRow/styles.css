@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150px;
-  height: 200px;
+  width: 120px;
+  height: 180px;
   margin-right: 15px; /* Spacing between books */
   margin-bottom: 20px;
   border: 1px solid gray;
@@ -13,7 +13,7 @@
 
 .book img {
   border-radius: 5px;
-  height: 100px;
+  height: 80px;
   margin-bottom: 10px; /* Space between image and book title */
 }
 

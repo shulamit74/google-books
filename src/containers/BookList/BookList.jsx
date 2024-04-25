@@ -87,13 +87,13 @@ const BookList = () => {
           Cart
         </button>
         <div className="pagination">
-          <span>Show:</span>
+          <span>Show: </span>
           <select value={booksPerPage} onChange={handleBooksPerPageChange}>
             <option value={10}>10</option>
             <option value={15}>15</option>
             <option value={50}>50</option>
           </select>
-          <span>books per page</span>
+          <span> books per page</span>
         </div>
       </header>
 
@@ -110,7 +110,7 @@ const BookList = () => {
             </div>
           ))
         ) : (
-          <div>{loading ? loadMessage : ""}</div>
+          <div>{loading ? loadMessage : "No books available."}</div>
         )}
       </div>
 
