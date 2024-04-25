@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
     <Routes>
-      <Route path="/" exact element={<BookList />} />
+      <Route path="/google-books" exact element={<BookList />} />
       <Route path="/cart" exact element={<Cart />} />
     </Routes>
   </Router>
