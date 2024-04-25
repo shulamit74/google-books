@@ -6,4 +6,4 @@
 3. Should be available at `http://localhost:3000`
 
 See deployed version here:
-`https://shulamit74.github.io`
+`https://shulamit74.github.io/google-books`
