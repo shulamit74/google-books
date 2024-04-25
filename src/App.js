@@ -4,9 +4,9 @@ import Cart from './containers/BookList/Cart';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/google-books'>
     <Routes>
-      <Route path="/google-books" exact element={<BookList />} />
+      <Route path="/" exact element={<BookList />} />
       <Route path="/cart" exact element={<Cart />} />
     </Routes>
   </Router>
