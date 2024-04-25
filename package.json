@@ -2,7 +2,7 @@
   "name": "google-books",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://shulamit74.github.io/google-books",
+  "homepage": "https://shulamit74.github.io",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
     "@testing-library/jest-dom": "^5.17.0",
