@@ -8,7 +8,7 @@ const BookRow = ({ book, addToCart, removeFromCart, selected }) => {
       <img src={book.volumeInfo?.imageLinks?.smallThumbnail} alt={title} />
       <div className="titleWrapper">
         <div className="title">
-          {book.id} {title}
+          {title}
         </div>
       </div>
       {selected ? (
