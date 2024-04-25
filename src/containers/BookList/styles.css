@@ -1,0 +1,38 @@
+.mainPage {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .addButton {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .addButton img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .bookList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bookItem {
+    margin-bottom: 10px;
+  }
+  
